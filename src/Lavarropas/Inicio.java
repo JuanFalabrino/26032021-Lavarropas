@@ -23,15 +23,17 @@ public class Inicio {
         System.out.println("---------------------------------");
         System.out.print(":");
         int prog = programa.nextInt();
+        System.out.print("Indique el peso aproximado de la ropa (En enteros):");
+        int peso = programa.nextInt();
         
-        Programas mensajero = new Programas(prog);
+        
+        Programas mensajero = new Programas(prog,peso);
         Lavarropas mensajero2 = new Lavarropas();
                
         mensajero.display();
-        mensajero2.especificaciones();
+        //mensajero2.especificaciones();
         
-        
-        
+                
         
         
         
